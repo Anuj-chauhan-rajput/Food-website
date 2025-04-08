@@ -26,7 +26,7 @@ const Gallery = () => {
         <Image src="/Image1.png" alt="Image1 png" width={400} height={300} className="rounded-xl object-cover w-full h-full" />
         <Image src="/Image2.png" alt="Image2 png" width={400} height={300} className="rounded-xl object-cover w-full h-full" />
         <Image src="/Image3.png" alt="Image3 png" width={400} height={300} className="rounded-xl object-cover w-full h-full" />
-        <Image src="/image4.png" alt="Image4 png" width={400} height={300} className="rounded-xl object-cover w-full h-full" />
+        <Image src="/Image4.png" alt="Image4 png" width={400} height={300} className="rounded-xl object-cover w-full h-full" />
         <Image src="/Image5.png" alt="Image5 png" width={400} height={300} className="rounded-xl object-cover w-full h-full" />
         <Image src="/Image6.png" alt="Image6 png" width={400} height={300} className="rounded-xl object-cover w-full h-full" />
       </div>
