@@ -5,13 +5,13 @@ import Navbar from './Navbar';
 const Hero = () => {
   return (
     <div className="relative bg-[#fff3cd] min-h-screen overflow-hidden">
-      {/* Navbar */}
+      
       <Navbar />
 
-      {/* Hero Section */}
+      
       <div className="container mx-auto px-4 py-12 flex flex-col-reverse lg:flex-row-reverse items-center justify-between gap-12 min-h-[calc(100vh-120px)]">
         
-        {/* Image Section */}
+       
         <div className="relative w-[240px] sm:w-[280px] md:w-[320px] lg:w-[360px] xl:w-[400px] aspect-[3/4] rounded-t-[280px] rounded-b-none shadow-2xl overflow-hidden mx-auto lg:mx-20">
           <Image
             src="/Im10.png"
@@ -22,9 +22,9 @@ const Hero = () => {
           />
         </div>
 
-        {/* Text Content */}
+        
         <div className="z-10 max-w-2xl space-y-6 text-center lg:text-left lg:ml-8">
-          {/* Header Line */}
+          
           <div className="flex items-center justify-center lg:justify-start gap-4">
             <div className="h-px w-12 bg-red-600" />
             <h2 className="text-lg sm:text-xl font-semibold text-red-600 tracking-widest">AAOJI</h2>

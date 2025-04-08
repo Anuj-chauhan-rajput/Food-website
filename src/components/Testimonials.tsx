@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div id="testi" className="bg-[#FFFBEA] py-20 px-6 md:px-20 space-y-12">
 
-      {/* Heading with lines */}
+     
       <div className="flex items-center justify-center gap-4">
         <div className="h-px w-16 bg-red-600" />
         <h3 className="text-red-600 font-semibold tracking-widest text-sm sm:text-base uppercase">
@@ -13,12 +13,11 @@ const Testimonials = () => {
         <div className="h-px w-16 bg-red-600" />
       </div>
 
-      {/* Subheading */}
       <h2 className="text-center text-3xl sm:text-4xl font-bold text-red-600 leading-snug">
         RAVING REVIEWS: HEAR FROM OUR HAPPY FOODIES!
       </h2>
 
-      {/* Testimonials Grid */}
+   
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {[
           {
@@ -43,7 +42,7 @@ const Testimonials = () => {
 
 <div id="callus" className="bg-white rounded-xl shadow-lg p-6 md:p-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
 
-  {/* Form Section */}
+ 
   <div>
     <h3 className="text-2xl font-bold text-red-600 mb-6">
       Fill in details to book a private party!
@@ -79,7 +78,6 @@ const Testimonials = () => {
     </form>
   </div>
 
-  {/* Map Section */}
   <div>
     <h3 className="text-2xl font-bold text-red-600 mb-4 text-center md:text-left">
       Map Here

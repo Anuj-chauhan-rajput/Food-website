@@ -15,13 +15,13 @@ const GianisSection = () => {
   const [index, setIndex] = useState(0)
   const [isMobile, setIsMobile] = useState(false)
 
-  // Check screen size on mount and on resize
+  
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768)
     }
 
-    handleResize() // initial check
+    handleResize() 
     window.addEventListener('resize', handleResize)
 
     return () => window.removeEventListener('resize', handleResize)
@@ -45,19 +45,19 @@ const GianisSection = () => {
     <div className="bg-[#fff3cd] py-16 px-6 md:px-20">
       <div className="max-w-7xl mx-auto text-center space-y-10">
 
-        {/* Outlets Label */}
+       
         <h3 className="text-lg font-semibold tracking-widest text-red-500 uppercase">
           Outlets
         </h3>
 
-        {/* Heading */}
+        
         <h2 className="text-4xl sm:text-5xl font-bold text-red-600">
           Relish Every Sweet Bite with Giani&apos;s
         </h2>
 
-        {/* Image Slider */}
+        
         <div className="relative w-full max-w-4xl mx-auto flex items-center justify-center">
-          {/* Prev Button */}
+          
           <button
             onClick={prevSlide}
             className="absolute left-2 z-10 bg-white shadow-md rounded-full p-2 hover:bg-red-100 transition"
@@ -65,7 +65,7 @@ const GianisSection = () => {
             <ChevronLeft className="w-6 h-6 text-red-500" />
           </button>
 
-          {/* Images */}
+          
           <div className="flex gap-4 justify-center w-full px-12 overflow-hidden">
             {images.slice(index, index + slidesToShow).map((src, idx) => (
               <Image
@@ -79,7 +79,7 @@ const GianisSection = () => {
             ))}
           </div>
 
-          {/* Next Button */}
+         
           <button
             onClick={nextSlide}
             className="absolute right-2 z-10 bg-white shadow-md rounded-full p-2 hover:bg-red-100 transition"
